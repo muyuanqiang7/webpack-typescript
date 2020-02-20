@@ -4,7 +4,8 @@
   "description": "webpack-typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ts-node": "ts-node ./src/app.ts"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/muyuanqiang7/webpack-typescript/issues"
   },
-  "homepage": "https://github.com/muyuanqiang7/webpack-typescript#readme"
+  "homepage": "https://github.com/muyuanqiang7/webpack-typescript#readme",
+  "devDependencies": {
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  }
 }
