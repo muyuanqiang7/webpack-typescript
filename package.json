@@ -1,0 +1,23 @@
+{
+  "name": "webpack-typescript",
+  "version": "1.0.0",
+  "description": "webpack-typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muyuanqiang7/webpack-typescript.git"
+  },
+  "keywords": [
+    "webpack",
+    "typescript"
+  ],
+  "author": "muyuanqiang7@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muyuanqiang7/webpack-typescript/issues"
+  },
+  "homepage": "https://github.com/muyuanqiang7/webpack-typescript#readme"
+}
