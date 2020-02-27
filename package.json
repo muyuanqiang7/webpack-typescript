@@ -5,7 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ts-node": "ts-node ./src/app.ts"
+    "ts-node": "ts-node ./src/app.ts",
+    "ts-any": "ts-node ./src/anyApp.ts",
+    "ts-compile": "tsc ./src/app.ts",
+    "ts-declare": "ts-node ./src/declareApp.ts",
+    "ts-inference": "ts-node ./src/typeInference.ts",
+    "object-type": "ts-node ./src/objectType.ts"
   },
   "repository": {
     "type": "git",
