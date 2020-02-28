@@ -10,7 +10,8 @@
     "ts-compile": "tsc ./src/app.ts",
     "ts-declare": "ts-node ./src/declareApp.ts",
     "ts-inference": "ts-node ./src/typeInference.ts",
-    "object-type": "ts-node ./src/objectType.ts"
+    "object-type": "ts-node ./src/objectType.ts",
+    "function-type": "ts-node ./src/fucntionType.ts"
   },
   "repository": {
     "type": "git",
