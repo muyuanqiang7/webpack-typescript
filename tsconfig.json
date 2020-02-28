@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "baseUrl": "./",
+    "allowJs": true,
+    "typeRoots": [
+      "./typings"
+    ],
+    "target": "es5",
+    "moduleResolution": "node",
+    "paths": {
+      "@typings/*": [
+        "typings/*"
+      ]
+    }
+  }
+}

@@ -11,7 +11,12 @@
     "ts-declare": "ts-node ./src/declareApp.ts",
     "ts-inference": "ts-node ./src/typeInference.ts",
     "object-type": "ts-node ./src/objectType.ts",
-    "function-type": "ts-node ./src/fucntionType.ts"
+    "function-type": "ts-node ./src/FuncyionType.ts",
+    "type-Assertion": "ts-node ./src/TypeAssertion.ts",
+    "declare-file": "ts-node  ./src/DeclareFile.ts",
+    "type-aliase": "ts-node  ./src/TypeAliase.ts",
+    "class-type": "ts-node  ./src/ClassType.ts",
+    "eslint": "eslint src --ext .ts"
   },
   "repository": {
     "type": "git",
@@ -28,7 +33,14 @@
   },
   "homepage": "https://github.com/muyuanqiang7/webpack-typescript#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "eslint": "^6.8.0",
     "ts-node": "^8.6.2",
-    "typescript": "^3.7.5"
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^3.8.2"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.33"
   }
 }
