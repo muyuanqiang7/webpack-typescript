@@ -16,7 +16,7 @@
     "declare-file": "ts-node  ./src/DeclareFile.ts",
     "type-aliase": "ts-node  ./src/TypeAliase.ts",
     "class-type": "ts-node  ./src/ClassType.ts",
-    "eslint": "eslint src --ext .ts"
+    "eslint": "eslint src --ext .ts --fix"
   },
   "repository": {
     "type": "git",
@@ -36,6 +36,7 @@
     "@typescript-eslint/eslint-plugin": "^2.21.0",
     "@typescript-eslint/parser": "^2.21.0",
     "eslint": "^6.8.0",
+    "eslint-config-alloy": "^3.6.0",
     "ts-node": "^8.6.2",
     "tsconfig-paths": "^3.9.0",
     "typescript": "^3.8.2"
