@@ -158,3 +158,30 @@ var myName = 'Tom';
 
 type Foo = {};
 
+
+type Action =
+    | {
+    type: "INIT"
+}
+    | {
+    type: "SYNC"
+}
+    | {
+    type: "LOG_IN"
+    emailAddress: string
+}
+    | {
+    type: "LOG_IN_SUCCESS"
+    accessToken: string
+}
+type ActionType = Action["type"];
+type  ExtractActionParameters<A, T> = A extends { type: T } ? A : never;
+
+function dispatch<T extends ActionType>(type: T, args: ExtractActionParameters<Action, T>): void {
+
+}
+
+type Test = ExtractActionParameters<Action, "LOG_IN">;
+let test: Test = {type: 'LOG_IN', emailAddress: ''};
+console.log(test);
+type ExcludeTypeField<A> = { [K in Exclude<keyof A, "type">]: A[K] }

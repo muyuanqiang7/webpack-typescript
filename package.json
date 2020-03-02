@@ -16,7 +16,9 @@
     "declare-file": "ts-node  ./src/DeclareFile.ts",
     "type-aliase": "ts-node  ./src/TypeAliase.ts",
     "class-type": "ts-node  ./src/ClassType.ts",
-    "eslint": "eslint src --ext .ts --fix"
+    "eslint": "eslint src --ext .ts --fix",
+    "RxJS(01)": "ts-node ./src/RxJS-01.ts",
+    "RxJS(03)": "ts-node ./src/RxJS-03.ts"
   },
   "repository": {
     "type": "git",
@@ -42,6 +44,8 @@
     "typescript": "^3.8.2"
   },
   "dependencies": {
-    "@types/jquery": "^3.3.33"
+    "@types/jquery": "^3.3.33",
+    "rxjs": "^6.5.4",
+    "whatwg-fetch": "^3.0.0"
   }
 }
